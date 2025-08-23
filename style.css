@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f7f7f7;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  margin: 20px 0;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+select, button, textarea {
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 14px;
+}
+
+#animation, #practice-animation {
+  display: flex;
+  gap: 5px;
+  margin: 15px 0;
+  min-height: 50px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.highlight {
+  background: #4CAF50;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  font-family: monospace;
+}

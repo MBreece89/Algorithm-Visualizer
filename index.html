@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Algorithm Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Algorithm Visualizer</h1>
+
+  <!-- Algorithm Selection -->
+  <section>
+    <h2>Algorithms</h2>
+    <select id="algorithm-select"></select>
+    <button id="run-algo">Run Algorithm</button>
+    <div id="animation"></div>
+    <p id="explanation"></p>
+  </section>
+
+  <!-- Practice Problems -->
+  <section>
+    <h2>Practice Problems</h2>
+    <select id="problem-select">
+      <option value="Sliding Window - Max Sum">Sliding Window - Max Sum</option>
+      <option value="Two Pointers - Pair Sum">Two Pointers - Pair Sum</option>
+      <option value="Next Greater Element - Stack">Next Greater Element - Stack</option>
+      <option value="Reverse Linked List">Reverse Linked List</option>
+      <option value="Fibonacci - Recursion">Fibonacci - Recursion</option>
+    </select>
+    <button id="run-user-code">Run My Code</button>
+    <textarea id="user-code" rows="12" cols="70"></textarea>
+    <div id="practice-animation"></div>
+    <p id="practice-explanation"></p>
+  </section>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
