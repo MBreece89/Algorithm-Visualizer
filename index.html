@@ -6,31 +6,37 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Algorithm Visualizer</h1>
+  <h1>🚀 Algorithm Visualizer</h1>
 
   <!-- Algorithm Selection -->
   <section>
-    <h2>Algorithms</h2>
-    <select id="algorithm-select"></select>
-    <button id="run-algo">Run Algorithm</button>
+    <h2>📊 Algorithm Demonstrations</h2>
+    <div class="controls">
+      <select id="algorithm-select">
+        <option value="">Select an algorithm...</option>
+      </select>
+      <button id="run-algo">Run Algorithm</button>
+    </div>
     <div id="animation"></div>
-    <p id="explanation"></p>
+    <p id="explanation">Select an algorithm and click "Run Algorithm" to see it in action!</p>
   </section>
 
   <!-- Practice Problems -->
   <section>
-    <h2>Practice Problems</h2>
-    <select id="problem-select">
-      <option value="Sliding Window - Max Sum">Sliding Window - Max Sum</option>
-      <option value="Two Pointers - Pair Sum">Two Pointers - Pair Sum</option>
-      <option value="Next Greater Element - Stack">Next Greater Element - Stack</option>
-      <option value="Reverse Linked List">Reverse Linked List</option>
-      <option value="Fibonacci - Recursion">Fibonacci - Recursion</option>
-    </select>
-    <button id="run-user-code">Run My Code</button>
-    <textarea id="user-code" rows="12" cols="70"></textarea>
+    <h2>💻 Practice Problems</h2>
+    <div class="controls">
+      <select id="problem-select">
+        <option value="Sliding Window - Max Sum">Sliding Window - Max Sum</option>
+        <option value="Two Pointers - Pair Sum">Two Pointers - Pair Sum</option>
+        <option value="Next Greater Element - Stack">Next Greater Element - Stack</option>
+        <option value="Reverse Linked List">Reverse Linked List</option>
+        <option value="Fibonacci - Recursion">Fibonacci - Recursion</option>
+      </select>
+      <button id="run-user-code">Run My Code</button>
+    </div>
+    <textarea id="user-code" rows="15" placeholder="Your code will appear here..."></textarea>
     <div id="practice-animation"></div>
-    <p id="practice-explanation"></p>
+    <p id="practice-explanation">Select a problem to get started!</p>
   </section>
 
   <script type="module" src="script.js"></script>
