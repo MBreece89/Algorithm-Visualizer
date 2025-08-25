@@ -1,111 +1,121 @@
 # Algorithm Visualizer & Practice Problems 🚀
 
 An interactive **algorithm visualizer + coding playground**.  
-Visualize built-in algorithms OR write your own code and see it animate step by step.
+Visualize classic algorithms step-by-step OR write your own code and see it animate live.  
+Perfect for learning, teaching, or practicing coding interview problems.  
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
+  <img src="https://img.shields.io/github/license/your-username/algorithm-visualizer?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/your-username/algorithm-visualizer?style=flat-square&logo=github" />
+</p>
 
 ---
 
 ## ✨ Features
-- **Algorithm Visualizer** – Pick an algorithm and watch it animate with explanations.
-- **Practice Problems** – Select a coding challenge, edit the starter code, and see your logic visualized.
-- **Supported Categories** (more coming soon):
-  - Arrays & Strings
-  - Linked Lists
-  - Stacks & Queues
-  - Recursion
-  - Dynamic Programming
+- 🎥 **Algorithm Visualizer** – Watch algorithms animate step-by-step with explanations.  
+- 💻 **Coding Playground** – Write your own solution, run it, and visualize instantly.  
+- 📚 **Practice Problems** – Solve curated problems across data structures & algorithms.  
+- 📈 **Categories Supported** (more coming soon):  
+  - Arrays & Strings  
+  - Linked Lists  
+  - Stacks & Queues  
+  - Recursion  
+  - Dynamic Programming  
 
 ---
 
 ## 🖥️ Run Locally
+Clone and serve the project:
+
 ```bash
 git clone https://github.com/your-username/algorithm-visualizer.git
 cd algorithm-visualizer
-# Open index.html in your browser
-# Note: Due to ES6 modules, you may need to serve via HTTP
+
+# Run with Python
 python -m http.server 8000
-# or
+
+# Or with Node.js
 npx http-server
-```
+⚠️ Note: ES6 modules require serving via HTTP. Opening index.html directly may cause import errors.
 
-**Important:** This project uses ES6 modules, so you need to serve it via HTTP (not just open the file directly) for the imports to work properly.
-
----
-
-## 📂 Project Structure
-
-```
+📂 Project Structure
+bash
+Copy
+Edit
 algorithm-visualizer/
 │
-├── index.html                 # Main HTML file
-├── style.css                  # Styling
-├── script.js                  # Main JavaScript logic
+├── index.html                 # Main app entry
+├── style.css                  # Styling & animations
+├── script.js                  # Core JavaScript logic
 │
-├── algorithms/
-│   └── algorithms.js          # Algorithm implementations
+├── algorithms/                # Algorithm implementations
+│   └── algorithms.js
 │
-├── problems/
-│   └── array_practice.js      # Practice problem definitions
+├── problems/                  # Problem definitions
+│   └── array_practice.js
 │
-└── README.md                  # This file
-```
+└── README.md
+🧑‍💻 Example Problems
+Sliding Window → Maximum sum subarray
 
----
+Two Pointers → Find pair with target sum
 
-## 🧑‍💻 Example Problems
+Stack → Next Greater Element
 
-* **Sliding Window** - Find maximum sum subarray
-* **Two Pointers** - Find pair with target sum
-* **Stack** - Next Greater Element problem
-* **Linked Lists** - Reverse a linked list
-* **Recursion** - Fibonacci sequence visualization
+Linked List → Reverse a linked list
 
----
+Recursion → Fibonacci sequence visualization
 
-## 🎯 How to Use
+🎯 How to Use
+Select an algorithm or problem from the dropdown.
 
-1. **Algorithm Visualizer:**
-   - Select an algorithm from the dropdown
-   - Click "Run Algorithm" to see step-by-step animation
-   - Watch as elements are highlighted and explained
+Click Run Algorithm (for built-ins) or Run My Code (for your solution).
 
-2. **Practice Problems:**
-   - Choose a problem from the dropdown
-   - Edit the starter code in the textarea
-   - Click "Run My Code" to see your solution animate
-   - Debug and improve your algorithms visually
+Watch the visualization animate step-by-step with highlights and explanations.
 
----
+Debug, tweak, and improve your code visually.
 
-## 🚀 Roadmap
+🚀 Roadmap
+ Add linked list, tree, and graph visualizations
 
-* Add Linked List, Tree, Graph visualizations
-* Expand problem set with DP, Greedy, and Graph problems
-* Add user progress tracking & difficulty levels
-* Include more complex data structure visualizations
-* Add step-by-step debugging features
+ Expand problem sets (DP, Greedy, Graphs)
 
----
+ User progress tracking & difficulty levels
 
-## 🛠️ Technologies Used
+ Advanced debugging tools
 
-- **Vanilla JavaScript** with ES6 modules
-- **CSS3** with animations and transitions
-- **HTML5** semantic structure
-- No external dependencies - runs entirely in the browser
+ Richer UI/UX with step controls
 
----
+🛠️ Tech Stack
+Technology	Purpose
+HTML5	App structure
+CSS3	Styling & animations
+Vanilla JS	Core logic with ES6 modules
+No frameworks	Lightweight, browser-only build
 
-## 📝 Contributing
+🤝 Contributing
+Contributions are welcome! 🎉
+You can help by:
 
-Feel free to contribute by:
-- Adding new algorithms to `algorithms/algorithms.js`
-- Creating new practice problems in `problems/`
-- Improving the UI/UX
-- Adding new visualization types
+Adding new algorithms to algorithms/algorithms.js
 
----
+Creating new problems in problems/
 
-## 📄 License
+Enhancing UI/UX or visualization features
 
-MIT License - feel free to use this project for learning and teaching!
+Expanding the documentation
+
+To contribute:
+
+Fork the repo
+
+Create a feature branch (git checkout -b feature/new-algorithm)
+
+Commit changes
+
+Open a Pull Request 🎯
+
+📄 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and share for learning or teaching purposes.
